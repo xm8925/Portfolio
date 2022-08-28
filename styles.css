@@ -123,7 +123,7 @@ h1 {
 
 .hero p {
     margin: 0;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 30px;
 }
 
@@ -191,6 +191,7 @@ align-items: center;
     align-items: center;
     padding: 50px;
     height: 100vh;
+    flex-direction: column;
 }
 
 .dark .about-me {
@@ -203,7 +204,7 @@ h2 {
 
 .about-me p {
     margin: 0;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     display: flex;
 }
@@ -246,6 +247,7 @@ display: flex;
     padding: 50px;
     height: 100vh;
     background-color: #f7d1cdc1;
+    flex-direction: column;
 }
 
 .dark .education{
@@ -312,8 +314,9 @@ display: flex;
 
 .subtext {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
 }
+
 
 .project-image {
     width: 250px;
@@ -353,3 +356,31 @@ hr {
 
 }
 
+.deployment {
+    text-decoration: none;
+    color: #F05454;
+    cursor: pointer;
+}
+
+.traingle{
+    text-decoration: none;
+    color: #222831;
+    font-size: 35px;
+}
+.traingle:hover{
+    text-decoration: none;
+    color: #222831;
+    font-size: 40px;
+}
+
+.dark .traingle {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.dark .traingle:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+}
