@@ -236,6 +236,7 @@ display: flex;
 .dark .headshot {
     box-shadow: 5px 5px 20px #ffffffc1;
 }
+
 }
 
 
@@ -320,7 +321,6 @@ display: flex;
 
 .project-image {
     width: 250px;
-    margin-top: 25px;
 }
 
 h3 {
@@ -350,8 +350,9 @@ hr {
 
     .about-me {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-evenly;
+        flex-direction: column;
     }
 
 }
@@ -362,6 +363,8 @@ hr {
     cursor: pointer;
 }
 
+/* TRAINGLE BUTTON */
+
 .traingle{
     text-decoration: none;
     color: #222831;
@@ -370,7 +373,7 @@ hr {
 .traingle:hover{
     text-decoration: none;
     color: #222831;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .dark .traingle {
@@ -379,8 +382,10 @@ hr {
     font-size: 35px;
 }
 
-.dark .traingle:hover {
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 40px;
+.hide {
+    display: none;
+}
+
+.tops:hover + .hide {
+display: block;
 }
